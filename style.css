@@ -1,0 +1,188 @@
+
+
+
+```css
+/* 1. General styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0b1020;
+    color: #f1f5f9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+/* 2. Hero section */
+.hero-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.profile-img {
+    width: 5cm;
+    height: 5cm;
+    border-radius: 12px;
+    object-fit: cover;
+    border: 3px solid #667eea;
+}
+
+.hero-section h1 {
+    font-size: 42px;
+    color: #a5b4fc;
+}
+
+.role {
+    color: #67e8f9;
+    font-size: 18px;
+}
+
+.intro {
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+/* 3. Headings */
+h2 {
+    margin-left: 2px;
+    color: #a5b4fc;
+}
+
+h3 {
+    color: #a5b4fc;
+}
+
+/* 4. Profile section */
+.box1,
+.about,
+.skills,
+.box2,
+.contact {
+    background-color: #151b30;
+    padding: 25px;
+    border: 1px solid #303956;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.details {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.det {
+    color: #a1a1aa;
+}
+
+/* 5. Skills section */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.techski {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #ffffff;
+    padding: 12px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+/* 6. Projects section */
+.project-card {
+    background-color: #151b30;
+    padding: 25px;
+    border: 1px solid #303956;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    border-color: #667eea;
+}
+
+.project-card h3 {
+    color: #a5b4fc;
+}
+
+.project-card a {
+    color: #67e8f9;
+    text-decoration: none;
+}
+
+.project-card a:hover {
+    text-decoration: underline;
+}
+
+/* 7. Contact section */
+.contact a {
+    color: #67e8f9;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* 8. Footer */
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #94a3b8;
+}
+
+/* 9. Responsive design for mobile */
+@media (max-width: 600px) {
+    main {
+        padding: 15px;
+    }
+
+    .hero-section {
+        padding: 30px 10px;
+    }
+
+    .hero-section h1 {
+        font-size: 28px;
+    }
+
+    .role {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .techski {
+        padding: 12px 8px;
+        font-size: 14px;
+    }
+
+    .project-card {
+        padding: 18px;
+    }
+
+    .profile-img {
+        width: 130px;
+        height: 130px;
+    }
+}
+```
